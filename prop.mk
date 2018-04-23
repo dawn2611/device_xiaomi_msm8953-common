@@ -193,3 +193,8 @@ ro.audio.flinger_standbytime_ms=300
 
 # Maintainer
 ro.candy.maintainer=Bhimanand(Bhi244)
+
+# Sdcard FS
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.sys.sdcardfs=false
+
