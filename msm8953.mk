@@ -138,6 +138,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.camera
 
+# Candy OTA
+PRODUCT_PACKAGES += \
+    CandyOTA
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
