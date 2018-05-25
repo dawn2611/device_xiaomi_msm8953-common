@@ -371,4 +371,7 @@
 
     <!-- Whether device has button lights support -->
     <bool name="config_button_brightness_support">true</bool>
+
+    <!-- Volume Rocker Wake -->
+    <bool name="config_show_volumeRockerWake">true</bool>
 </resources>
