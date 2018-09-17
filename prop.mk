@@ -184,3 +184,6 @@ persist.sys.usb.config.extra=none
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+#add Density default
+ro.sf.lcd_density=410
