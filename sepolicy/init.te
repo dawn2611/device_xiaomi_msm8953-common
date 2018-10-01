@@ -1,0 +1,12 @@
+allow init proc:file { read open getattr };
+allow init gx_fpd:binder call;
+allow init fingerprint_service:service_manager find;
+allow init sysfs:file { read write open setattr };
+allow init sysfs_leds:lnk_file read;
+allow init vendor_file:file { execute execute_no_trans };
+allow init servicemanager:binder { call transfer };
+allow init fpc_sysfs:file { read write open };
+allow init hwservicemanager:binder call;
+#binder_call(init);
+vndbinder_use(init)
+
